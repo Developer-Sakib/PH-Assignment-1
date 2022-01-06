@@ -1,0 +1,169 @@
+body{
+    margin: 0; 
+}
+p{
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.special-color{
+    color: rgb(181, 214, 62);
+}
+.btn{
+    background-color: rgb(103, 167, 137);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(19, 11, 11);
+    display: block;
+    width: 100px;
+    font-size: 18px;
+    margin: 22px 0;
+}
+/* Banner Section */
+.divide{
+    display: flex;
+}
+.banner-left{
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.banner-header{
+    border-left: 4px solid;
+    border-image: linear-gradient(blue, pink);
+    border-image-slice: 2;
+    padding: 0px 20px;
+}
+.banner-left h1{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Yeseva One', cursive;
+}
+.banner-left .special-color{
+    margin-top: -40px;
+}
+.banner-left p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-right img{
+    height: auto;
+    width: 70%;
+    text-align: right;
+    margin-left: 30px;
+}
+
+/* My Mission */
+.my-mission{
+    margin-top: 80px;
+}
+.box-design{
+    width: 30%;
+    margin: 2%;
+    border-radius: 16px;
+}
+.box-design h3{
+    font-size: 22px;
+    margin: -20px 0 0 30px;
+    font-weight: 700;
+}
+.box-design p{
+    font-size: 16px;
+    margin: 10px 10px 20px 30px;
+}
+.my-mission h1{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: rgb(44, 46, 48);
+}
+.mission{
+    background-color: rgb(205, 221, 211);
+}
+.vission{
+    background-color: rgb(223, 209, 220);
+}
+.goal{
+    background-color: rgb(207, 199, 218);
+}
+.box-img img{
+    height: 120px;
+    width: auto;
+    margin: 20px;
+    
+}
+
+/* Content 1 */
+.content1 img{
+    height: 80%;
+    width: 80%;
+    margin-left: 70px;
+}
+.content1-left{
+    width: 50%;
+    margin: 2%;
+}
+.content1-right h1{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(44, 46, 48);
+}
+.content1-right{
+    width: 50%;
+    margin: 2%;
+}
+
+/* Content-2 */
+.content2-left h1{
+    margin-left: 30%;
+}
+.content2-left a{
+    margin-left: 30%;
+}
+.content2-left p{
+    margin-left: 30%;
+}
+.content2-left{
+    width: 50%;
+    margin: 2%;
+}
+.content2 img{
+    height: 80%;
+    width: 80%;
+    margin-left: 70px;
+}
+.content2-right{
+    width: 50%;
+    margin: 2%;
+}
+.content2-left h1{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(44, 46, 48);
+}
+/* last Content */
+.last-content{
+    background-image: url(/images/images.jpg);
+    text-align: center;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    padding: 40px 0;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* Footer Section */
+.footer{
+    background-color: #434458;
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(226, 215, 215);
+}
+.footer h1{
+    color: whitesmoke;
+    font-family: 'Lobster Two', cursive;
+}
