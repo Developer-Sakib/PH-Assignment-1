@@ -147,14 +147,25 @@ p{
     color: rgb(44, 46, 48);
 }
 /* last Content */
-.last-content{
-    background-image: url(images/images.jpg); background-size: cover;
-    background-repeat: no-repeat;
+.last-content-left{
+    width: 50%;
+}.last-content-left img{
+    height: 100%;
+    width: 100%;
+}
+.last-content-right{
+    /* background-image: url(images/images.jpg); background-size: cover;
+    background-repeat: no-repeat; */
     text-align: center;
     font-size: 32px;
     color: rgb(129, 211, 53);
     padding: 40px 0;
     font-family: 'Yeseva One', cursive;
+    width: 50%;
+    background-color: #f7f7f7;
+}
+.last-content{
+    opacity: 0.3;
 }
 
 /* Footer Section */
